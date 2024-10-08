@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/albertus-medium');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --gray: #EDEDEB;
+    --white: #ffffff;
+    --black: #101010;
+    --green: #97A52F;
+  }
+
+.txt {
+    color: #545454;
+    font-size: 14px;
+    font-family: "Krub", sans-serif;
+    font-style: normal;
+}
+.heading {
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #101010;
+}
+
+.btn-dark {
+    display: grid;
+    place-items: center;
+    padding: 0 15px;
+    height: 45px;
+    border: 1px solid #424242;
+    border-radius: 10px;
+    background: transparent;
+}
+.btn-dark a {
+    font-family: 'Albertus Medium', sans-serif;
+    padding: 8px 15px;
+    color: #424242;
+    font-size: 15px;
+}
+
+.btn-light {
+    display: grid;
+    place-items: center;
+    padding: 0 15px;
+    height: 45px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+}
+.btn-light a {
+    font-family: 'Albertus Medium', sans-serif;
+    color: #FFFFFF;
+    font-size: 15px;
+}
